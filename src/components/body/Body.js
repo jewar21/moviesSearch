@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react'
 
 import { Paginator } from 'primereact/paginator'
 
-import coverBody from '../../assets/coverBody.m4v'
+// import coverBody from '../../assets/coverBody.m4v'
 
 import '../../styles/components/_body.scss'
 
@@ -52,7 +52,7 @@ export const Body = () => {
         />
       ) : (
         <div className="cover-container">
-          <video className="video" src={coverBody} autoPlay loop muted />
+          {/* <video className="video" src={coverBody} autoPlay loop muted /> */}
         </div>
       )}
     </section>
