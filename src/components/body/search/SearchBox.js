@@ -2,9 +2,11 @@ import React from "react";
 
 import { InputText } from "primereact/inputtext";
 
+import '../../../styles/styles.scss'
+
 export const SearchBox = (props) => {
   return (
-    <div>
+    <div className="search-box-content">
       <span className="p-input-icon-left">
         <i className="pi pi-search" />
         <InputText

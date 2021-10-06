@@ -1,6 +1,80 @@
+// SearchBox
+.search-box-content {
+    background: #1F1F1F;
+
+    span {
+        margin: 20px 6% 20px;
+    }
+}
+
+.p-inputtext{
+    color: #B8B8B8;
+}
+.p-input-icon-left > .p-inputtext {
+    width: 80vw;
+    padding-left: 10rem;
+    border-radius: 20px;
+}
+
+
+// MovieList
 .card-container {
     display: grid;
     gap: 10px;   
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    justify-items: center;
+    padding-top: 2rem;
+    
+    .p-card {
+        background: linear-gradient(180deg, rgba(196, 196, 196, 0.5) 0%, rgba(196, 196, 196, 0) 100%);
+        color: white;
+        .p-card-subtitle {
+            color: white;
+        }
+    }
+    
+    .card {
+        width: 300px;
+        height: auto;
 
+        .imgBox img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center center;
+        }
+    }
+
+}
+.none {
+    padding: 0;
+}
+.p-card .p-card-title {
+    font-size: 10rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+// Paginator
+.p-paginator {
+    margin-bottom: 100vh;
+}
+
+// Video
+.cover-container {
+    height: 100vh;
+    width: 100%;
+    object-fit: contain; //para que sea siempre la misma anchura
+    top: 0;
+    left: 0;
+    outline: none;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 1);
+    margin-bottom: 100vh;
+
+    .video {
+        object-fit: cover;
+        width:100%;
+        height:100vh;
+        position: absolute;
+    }
 }

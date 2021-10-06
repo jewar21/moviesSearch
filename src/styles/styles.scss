@@ -9,3 +9,14 @@
 @import './components/header';
 @import './components/body';
 @import './components/footer';
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+}
+
+body {
+    background: black;
+}
