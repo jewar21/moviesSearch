@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react'
 
 import { Paginator } from 'primereact/paginator'
 
-import coverBody from '../../assets/coverBody.mp4'
+import coverBody from '../../assets/coverBody.m4v'
 
 import '../../styles/components/_body.scss'
 
